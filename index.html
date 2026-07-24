@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Original Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Requirement 1: Skip to main content link -->
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <header>
+        <h1>Welcome to My Site</h1>
+        <!-- Requirement 2: Accessible navigation -->
+        <nav aria-label="Main Navigation">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- The target for the skip link -->
+    <main id="main-content">
+        <section class="intro">
+            <h2>About This Project</h2>
+            <p>This is my final project for the Introduction to CSS3 course. It demonstrates grid, flexbox, the box model, and accessibility principles.</p>
+        </section>
+
+        <section class="grid-container">
+            <!-- Requirement 4: Box model styling -->
+            <div class="card">
+                <h3>Feature 1</h3>
+                <p>Content for the first feature goes here.</p>
+            </div>
+            <div class="card">
+                <h3>Feature 2</h3>
+                <p>Content for the second feature goes here.</p>
+            </div>
+            <div class="card">
+                <h3>Feature 3</h3>
+                <p>Content for the third feature goes here.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Original Site</p>
+    </footer>
+
+</body>
+</html>
